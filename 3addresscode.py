@@ -22,8 +22,8 @@ def infix_to_postfix(formula):
     # leftover
     while stack:
     	output += stack.pop()
-    # print(f'POSTFIX: {output}')
     return output
+    # print(f'POSTFIX: {output}')
 
 ### THREE ADDRESS CODE GENERATION ###
 
