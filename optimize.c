@@ -1,7 +1,9 @@
 #include<stdio.h> 
 #include<string.h> 
+#include<ctype.h>
 
-main() 
+
+int main() 
 {
 	char str[25][50],forLoopParam[90],rightHandParam[10] [40],leftHandParam[90]; 
 	int j=0,k=0,i=0,m=0,n=0,q=0,s=0; 
